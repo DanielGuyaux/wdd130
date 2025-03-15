@@ -1,0 +1,51 @@
+body {
+    height: 840px;
+    width: 840px;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    float: left;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #050505;
+    color: rgb(66, 235, 136);
+    border-radius: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    float: left;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #050505;
+    color: aqua;
+    border-radius: 10px;
+}
+
+aside img {
+    width: 150px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p { padding: 0;}
+
+footer {
+    margin-top: 10px;
+    border-top: 1px solid #050505;
+    text-align: center;
+    width: 840px;
+}
